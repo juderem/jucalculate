@@ -176,22 +176,22 @@ button:active {
 }
 
 .calcButts > #dot {
-  background-color: #ffe6f0;
-  color: #ff4d94;
-  box-shadow: 0 3px #ffcce0;
-  border: 1px solid #ffe6f0;
+  background-color: #ffe6ff;
+  color: #ff00ff;
+  box-shadow: 0 3px #ffccff;
+  border: 1px solid #ffe6ff;
   font-size: 30px;
   font-weight: bolder;
 }
 
 .calcButts > #dot:hover {
-  background-color: #ffb3d1;
-  border: 1px solid #ffb3d1;
+  background-color: #ffb3ff;
+  border: 1px solid #ffb3ff;
 }
 
 .calcButts > #dot:active {
   transform: translateY(4px);
-  box-shadow: 0 3px #ffb3d1;
+  box-shadow: 0 3px #ffb3ff;
 }
 
 .calcButts > #equals {
