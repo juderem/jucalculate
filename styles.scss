@@ -1,0 +1,201 @@
+$depth: 20px;
+$round: 20px;
+$height: 500px;
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(168, 245, 219);
+}
+
+main > .calcBod {
+    border: 2px solid white;
+    border-radius: 3%;
+    background-color: white;
+    width: 500px;
+    height: 800px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 22px 22px #E7E7E7;
+    
+}
+
+main > .calcBod > .screen {
+    border: 1px solid rgb(231, 231, 231);
+    background-color: rgb(231, 231, 231);
+    border-radius: 3%;
+    position: absolute;
+    width: 440px;
+    height: 160px;
+    top: 5%;
+    left: 6%;
+
+}
+
+main > .calcBod > input {
+    border: 1px solid rgb(231, 231, 231);
+    background-color: rgb(231, 231, 231);
+    border-radius: 3%;
+    position: absolute;
+    width: 440px;
+    height: 120px;
+    top: 5%;
+    left: 6%;
+    font-size: 40px;;
+}
+
+button {
+    border: 1px solid rgb(245, 245, 245);
+    background-color: rgb(245, 245, 245);
+    border-radius: 10%;
+    font-size: 100px;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: gray;
+    box-shadow: 0 3px rgb(216, 216, 216);   
+    width: 85px;
+    height: 90px;
+    align-items: center;
+}
+
+button:hover {
+    background-color: rgb(231, 231, 231);
+    border: 1px solid rgb(231, 231, 231);
+}
+
+button:active {
+    transform: translateY(4px);
+    box-shadow: 0 3px rgb(231, 231, 231);
+}
+
+.calcButts {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 25px;
+    margin-top: 40%;
+    padding: 55px;;
+    margin-left: -10px;
+}
+
+.calcButts > #reset {
+    background-color: #ffcccc;
+    color: #ff8080;
+    box-shadow: 0 3px #ff9999;
+    border: 1px solid #ffcccc;
+    font-size: 30px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+}
+
+.calcButts > #reset:hover {
+    background-color: #ffb5b5;
+    border: 1px solid #ffb5b5;
+}
+
+.calcButts > #reset:active {
+    transform: translateY(4px);
+    box-shadow: 0 3px #ffb5b5;
+}
+
+.calcButts > #minus {
+    background-color: #ffffcc;
+    color: #cccc00;
+    box-shadow: 0 3px #ffff99;
+    border: 1px solid #ffffcc;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.calcButts > #minus:hover {
+    background-color: #ffff90;
+    border: 1px solid #ffff90;
+}
+
+.calcButts > #minus:active {
+    transform: translateY(4px);
+    box-shadow: 0 3px #ffff90;
+}
+
+.calcButts > #divide {
+    background-color: #ccffcc;
+    color: #00cc00;
+    box-shadow: 0 3px #b3ffb3;
+    border: 1px solid #ccffcc;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.calcButts > #divide:hover {
+    background-color: #9eff9e;
+    border: 1px solid #9eff9e;
+}
+
+.calcButts > #divide:active {
+    transform: translateY(4px);
+    box-shadow: 0 3px #9eff9e;
+}
+
+.calcButts > #mult {
+    background-color: #ccd9ff;
+    color: #668cff;
+    box-shadow: 0 3px #b3c6ff;
+    border: 1px solid #ccd9ff;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.calcButts > #mult:hover {
+    background-color: #adc1ff;
+    border: 1px solid #adc1ff;
+}
+
+.calcButts > #mult:active {
+    transform: translateY(4px);
+    box-shadow: 0 3px #adc1ff;
+}
+
+.calcButts > #plus {
+    background-color: #eee6ff;
+    color: #aa80ff;
+    box-shadow: 0 3px #ddccff;
+    border: 1px solid #eee6ff;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.calcButts > #plus:hover {
+    background-color: #d6c3ff;
+    border: 1px solid #d6c3ff;
+}
+
+.calcButts > #plus:active {
+    transform: translateY(4px);
+    box-shadow: 0 3px #d6c3ff;
+}
+
+.calcButts > #equals {
+    background-color: #ffe6f0;
+    color: #ff4d94;
+    box-shadow: 0 3px #ffcce0;
+    border: 1px solid #ffe6f0;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.calcButts > #equals:hover {
+    background-color: #ffb3d1;
+    border: 1px solid #ffb3d1;
+}
+
+.calcButts > #equals:active {
+    transform: translateY(4px);
+    box-shadow: 0 3px #ffb3d1;
+}
